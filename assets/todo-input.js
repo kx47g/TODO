@@ -33,11 +33,8 @@ const TodoInput = {
           deadline,
         }),
       });
-      window.location.href = 'start-screen.html';
+      window.location.href = 'index.html';
      },
-     Jumpstart(){
-      window.location.href = 'start-screen.html'; // 通常の遷移
-    },
     },
   /*html*/
   template: `

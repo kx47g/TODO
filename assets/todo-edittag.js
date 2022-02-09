@@ -30,7 +30,7 @@ const Edittag = {
         }),
       });
       }
-      window.location.href = 'start-screen.html'; // 通常の遷移
+      window.location.href = 'index.html'; // 通常の遷移
      },
      async onRegister(){
       // tag という "一時" 変数を用意し、内容を保存
@@ -51,11 +51,8 @@ const Edittag = {
         }),
       });
       }
-      window.location.href = 'start-screen.html';
+      window.location.href = 'index.html';
      },
-     Jumpstart(){
-      window.location.href = 'start-screen.html'; // 通常の遷移
-    },
     },
   /*html*/
   template: `

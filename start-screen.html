@@ -6,31 +6,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TODO Application</title>
-  <link rel="stylesheet" href="assets/start-screen.css">
+  <link rel="stylesheet" href="assets/index.css">
   <script>
     const API_ROOT = 'https://first-todolist-robo.herokuapp.com';
   </script>
   <script src="https://unpkg.com/vue@next"></script>
   <script src="assets/todo-list.js"></script>
+  <script src="assets/todo-edittag.js"></script>
   <script src="assets/todo-input.js"></script>
   <script src="assets/todo-delete.js"></script>
-  <script src="assets/todo-edittag.js"></script>
   <script src="assets/index.js"></script>
 </head>
 
 <body>
-    <div class = "back-position">
-        <a href = "filter.html" id = "jump">フィルタ</a>
-        <a href = "index.html" id = "make" ><center>作成</center></a>
-        <a href = "edittag.html" id = "tag" >タグの編集</a>
-        <!--<button type = "button" id = "filter" >フィルタ</button>-->
-        <div id="vue">
-          <todo-list></todo-list>
-          <todo-delete></todo-delete>
-        </div>
-        
+  <div class ="back-position">
+    <div id="vue">
+      <todo-input></todo-input>
     </div>
-
+    <a href = "index.html" id = "cancel" >キャンセル</a>
+  </div>
 </body>
 
 </html>

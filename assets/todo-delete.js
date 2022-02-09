@@ -13,7 +13,7 @@ const TodoDelete = {
         method: 'DELETE',
         });
       }
-      window.location.href = 'start-screen.html';
+      window.location.href = 'index.html';
     },
   },
   /*html*/
