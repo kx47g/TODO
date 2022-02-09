@@ -1,0 +1,73 @@
+button {
+    border-radius: 20px;
+
+    padding: 0;
+    font-size:20px;
+   
+}
+.center{
+    width:320px;
+    margin: 0 auto;
+}
+.back-position{
+    position: relative;
+    background-color: rgba(68, 74, 80, 0.767);
+    width:400px;
+    height: 600px;
+    margin: 0 auto;
+}
+div {
+    font-size:20px;
+}
+
+#add {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+
+#TodoInput {
+    position: absolute;
+    bottom: 450px;
+    right: 100px;
+}
+
+#cancel {
+    background-color: white;
+    position: relative;
+    text-decoration: none;
+    top: 3px;
+    left: 3px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 30px;
+    padding: 0;
+}
+
+#addition{
+    position: relative;
+    /*top: 210px;*/
+    left: 90px;
+}
+
+#content {
+    position: relative;
+    /*top: 150px;
+    left: 100px;*/
+}
+
+#deadline{
+    position: relative;
+    /*top: 180px;
+    left: 100px;*/
+}
+
+#time{
+    position: relative;
+    /*top: 210px;
+    left: 100px;*/
+}
+
+
+

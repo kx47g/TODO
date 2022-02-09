@@ -1,0 +1,91 @@
+/*start-screen.html-----------*/
+button {
+    border-radius: 20px;
+
+    padding: 0;
+    font-size:20px;
+   
+}
+
+.back-position{
+    position: relative;
+    background-color: rgba(68, 74, 80, 0.767);
+    width:400px;
+    height: 600px;
+    margin: 0 auto;
+}
+#TODO{
+    position: absolute;
+    top: 100px;
+    right: 40px;
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+
+
+#addition{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    bottom: 0px;
+    right: 0px;
+}
+
+#jump{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    top: 5px;
+    right: 5px;
+}
+#tag{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    top: 5px;
+    right: 150px;
+}
+
+/*作成ボタン*/
+#make{
+    border-radius: 5px;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 3px;
+    bottom: 3px;
+}
+/*フィルターボタン*/
+#filter{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    right: 0px;
+}
+
+/*---------------------------*/
